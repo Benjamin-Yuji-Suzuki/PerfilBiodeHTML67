@@ -1,0 +1,56 @@
+body{
+    background-image: url('https://images.pexels.com/photos/1485894/pexels-photo-1485894.jpeg?cs=srgb&dl=pexels-maoriginalphotography-1485894.jpg&fm=jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+img{
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-right: 0px;
+}
+h1{
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table{
+    border-radius: 5%;
+    background: rgba(255, 255, 255, 0.8);
+    width: 680px;
+    height: 560px;
+    border: 5px solid black;
+}
+.tabela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+.imgtabela{
+    margin-right: 0px;
+    display: flex;
+    justify-items: flex-start;
+    align-items: start;
+}
+.info {
+    flex: 1;
+    margin-left: 30px;
+}
+.ctt {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.nome {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.tel {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color:#555;
+}
